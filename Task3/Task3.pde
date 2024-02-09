@@ -23,7 +23,7 @@ int min = 2;
 int max = 23;
 
 //Er summen af min og max højere end 10 samtidig med at enten min eller max er mindre end fem.
-if ((min + max > 10) && (min < 5 || min < 5)){
+if ((min + max > 10) && (min < 5 || max < 5)){
   println("Success!");
 } else {
   println("Failure!");
